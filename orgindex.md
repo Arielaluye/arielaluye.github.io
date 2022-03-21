@@ -1,37 +1,106 @@
-## Welcome to GitHub Pages
+---
+layout: landing
+---
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<h2>{{ site.title }}</h2>
+			<p>{{ site.description | markdownify }}</p>
+	</div>
+			<a href="#one" class="more scrolly">About Me</a>
+</section>
 
-You can use the [editor on GitHub](https://github.com/Arielaluye/arielaluye.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+	<div class="inner">
+		<div class="box alt">
+			<div class="row uniform 50%">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+				<div class="1u">
+				</div>
 
-### Markdown
+				<div class="6u">
+					<h3>About Me</h3>
+						<p>I am a Ph.D. Candidate in linguistics at the University of Southern California.
+								I study phonology, the linguistic knowledge of sound patterns,
+								and I explore to what extent this knowledge can be
+								economically represented and computed in the human mind.
+						</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+						<p>	My research projects involve various Chinese languages/dialects
+								and an under-threat Romance language, Ladin.
+								The data are from my own fieldwork and/or existing corpus.
+						</p>
 
-```markdown
-Syntax highlighted code block
+						<p>	Apart from theoretical linguistics, I am also enthusiastic about sociolinguistics.
+							I worked as a teaching assistant at USC for the course <a href="/3Teaching.html"><i>Language and Society</i></a> between 2016 and 2020.
+						</p>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+						<p>Here is how to pronounce my name in Mandarin Chinese: [i˥.fan˧˥.jɑŋ˧˥].</p>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+					</div>
 
-[Link](url) and ![Image](src)
-```
+					<div class="1u">
+					</div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+					<div class="3u">
+						<span class="image fit">
+							<br />
+							<br />
+						<img src="images/pic01d.jpg" alt="" />
+						</span>
+					</div>
 
-### Jekyll Themes
+					<div class="1u">
+					</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arielaluye/arielaluye.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+				</div>
 
-### Support or Contact
+				<hr />
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+				<div class="row uniform 50%">
+					<div class="1u">
+					</div>
+
+					<div class="11u">
+						<h3>Research Interests</h3>
+							<h5>General</h5>
+								<ul>
+									<li>Phonology and its interface with morphology</li>
+									<li>Phonetics</li>
+								</ul>
+
+							<h5>Specific (Past projects)</h5>
+								<ul>
+									<li>Identity effect in phonology-reduplication interaction</li>
+									<li>Phonetics and phonology of understudied languages</li>
+									<li>Gestural coordination of diphthongs</li>
+									<li>Rime change patterns of Chinese languages/dialects</li>
+									<li>Morpheme realization and the architecture of grammar</li>
+								</ul>
+
+								<p>I am a member of <a href="https://sites.google.com/view/uscphongroup/home">USC Phonetics and Phonology Group</a> 
+										and <a href="https://dornsife.usc.edu/labs/shlac/">Language and Computation Lab (ShLAC)</a>. <br />
+									More about my research can be found <a href="2Papers.html">here</a></p>
+					</div>
+				</div>
+
+				<hr />
+
+				<div class="row uniform 50%">
+					<div class="1u">
+					</div>
+
+					<div class="11u">
+						<b>Cover photo:</b> Downtown Los Angeles. July 2021. (© Yifan Yang)
+					</div>
+				</div>
+
+
+		<div class="content">
+			<center> </center>
+		</div>
+	</div>
+</section>
